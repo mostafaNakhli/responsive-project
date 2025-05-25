@@ -629,6 +629,22 @@ footer#footer{
     height: 250px;
 }
 }
+@media screen and (min-width:600px){
+    .order__bg-img , .services__img-holder{
+    width: 60%;
+}
+
+}
+@media screen and (min-width:700px){
+    .order__bg-img , .services__img-holder{
+    width: 50%;
+}
+.order__bg-img::after , .services__img-holder::after{
+    content: "";
+     width: 300px;
+    height: 300px;
+}
+}
 
 /* Tablet */
 
